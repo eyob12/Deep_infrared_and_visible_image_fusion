@@ -15,8 +15,7 @@ Then using the code “Model_Test.py” generate the fused result
 # Training 
 Prepare dataset using the code “ create_training_dataset.m” from coco dataset according to the figure shown below. Then classify for training=1000000 micro patches, for test= 300,000 micro patches. 
 Then using the code “Model_training.py” train the model  
-#Preparation of clean and blur image pairs for training
-
+# Preparation of clean and blur image pairs for training
 ![method of Inf and VIs](https://user-images.githubusercontent.com/57870274/184500375-8b786a3c-663f-43c4-9d9b-80f808be0d7d.jpg)
  The following is the steps of preparing the dataset, for further see in the above Fig
  1. Randomly selected image from COCO dataset is changed to grayscale
@@ -24,7 +23,7 @@ Then using the code “Model_training.py” train the model
  3. The gradient in the direction of horizontal and vertical is applied for both the original and the four version of the blurred version.
  4. Create three groups that contain the original image, the gradient in the direction of horizontal G_x and the gradient in the direction of vertical G_y.
 
-#Designing and training of blur detection neural network
+# Designing and training of blur detection neural network
 
 ![model](https://user-images.githubusercontent.com/57870274/184501173-4657b7e4-7981-45cb-8937-1b64d96cce56.jpg)
 
