@@ -1,4 +1,4 @@
-# Cross Domain Deep Blur Simulation and Detection Network for Infrared and Visible Image Fusion
+# A Deep Learning and Image Enhancement Based Pipeline for Infrared and Visible Image Fusion
 
 This is a pytorch implementation for Infrared and Visible Image Fusion, python version 3.7  
 
