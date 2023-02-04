@@ -5,6 +5,8 @@ This is a pytorch implementation for Infrared and Visible Image Fusion, python v
 
 Abstract: Infrared and visible image fusion (IVIF)  is generally a challenging problem due to the unavailability of ground truth image. In this paper,  a fully automatic deep learning based IVIF method is proposed.  The IVIF problem is treated as a blur detection problem and an efficient multi-path convolution network is proposed for blur detection. A cross domain learning methodology is used to train the proposed network. We fused the enhanced images rather than original images.   Our proposed method mainly consists of  four  stages: 1)preparation of clean and blur image pairs for training; 2) designing and training of blur detection neural network; 3)enhancement of infrared and visible images; 4) fusing enhanced version of  infrared and visible image based on weighting map from trained blur detection network. Extensive experimental results in three public IVIF data sets demonstrate the superior performance of our proposed approach over other state-of-the-art methods in terms of both subjective visual quality and six objective metrics.
 
+Note: we will provide the source code after the paper is accepted or published.
+
 # Quick start
 1. run 'Model_Test.py'
 Input infrared, visible, enhanced infrared, and enhanced visible images to generate the fused image. To enhance images, execute the "main.m" code contained within the folder Enhancement. This folder contains enhanced images for simple.
